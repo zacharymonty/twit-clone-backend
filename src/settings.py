@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 from django.core.management.utils import get_random_secret_key
+import django
 import os
 
 
@@ -31,7 +32,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'Optional default value')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://twitclone-backend.herokuapp.com/'
+    '.herokuapp.com'
 ]
 
 
