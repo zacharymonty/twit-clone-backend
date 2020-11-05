@@ -1,0 +1,1 @@
+secret_key = 'st@sbo%0hrqtm2!t^a&p7m+gw8_88%e04a5vwt%da6pv1d@q-g'
